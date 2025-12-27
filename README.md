@@ -69,32 +69,12 @@ I'm a passionate **Software Developer** specializing in building exceptional dig
 
 ---
 
-## 📈 Contribution Graph
-
-<div align="center">
-  
-  [![Your Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hrishirajSarmah&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=hrishirajSarmah&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
-
----
-
 ## 📫 Connect with Me
 
 <div align="center">
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
-  [![X](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/bigOwhalee)
+  [![X](https://img.shields.io/badge/-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/bigOwhalee)
   [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://itshrs.dev)
   
 </div>
@@ -104,7 +84,5 @@ I'm a passionate **Software Developer** specializing in building exceptional dig
 <div align="center">
   
   ![Profile Views](https://komarev.com/ghpvc/?username=hrishirajSarmah&color=blueviolet&style=for-the-badge)
-  
-  README creadits: Cory House
   
 </div>
