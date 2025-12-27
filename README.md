@@ -8,7 +8,8 @@
 
 ## 👨🏻‍💻 About Me
 
-I’m a **Software Developer** focused on **Machine Learning, Backend Systems, and DevOps**, with a strong interest in building and studying ML-driven systems at scale. My work sits at the intersection of model development, system design, and deployment.
+I’m a **Software Developer** focused on **Machine Learning, Backend Systems, and DevOps**, with a strong interest in building and studying ML-driven systems at scale. My work sits at the intersection of model development, system design, and deployment. I've been highly invested in learning microservices and distributed systems, and am working to integrate it into my web applications.
+I've built and worked on multiple reliable and intelligent ML models, and even pushed them to production. Apart from that, I like to experiment with various Language Models on the market and test them against each other.
 
 Currently I'm working on building reliable backend systems and automating user workflows, while also contributing to fun open source projects.
 
