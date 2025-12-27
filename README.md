@@ -1,21 +1,23 @@
-# Hi there, I'm Hrishiraj 👋
+# Hi there, I'm *Hrishiraj* 👋
 
-<div align="center">
-  
+<div align="left">
+
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Software+Engineer;Open+Source+Enthusiast)](https://git.io/typing-svg)
   
 </div>
 
 ## 👨🏻‍💻 About Me
 
-I'm a passionate **Software Developer** specializing in building exceptional digital experiences. Currently focused on creating innovative solutions using modern technologies.
+I’m a **Software Developer** focused on **Machine Learning, Backend Systems, and DevOps**, with a strong interest in building and studying ML-driven systems at scale. My work sits at the intersection of model development, system design, and deployment.
 
-- 🔭 I'm currently working on **[Your Current Project]**
-- 🌱 I'm currently learning **[Technology/Framework]**
-- 👯 I'm looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **Web Development, APIs, and Database Design**
-- 📫 How to reach me: **your.email@example.com**
-- ⚡ Fun fact: **[Something interesting about you]**
+Currently I'm working on building reliable backend systems and automating user workflows, while also contributing to fun open source projects.
+
+- 🔭 I’m currently working on **Transformers, Vision–Language Models (VLMs), and Spring Boot–based services**
+- 🌱 I’m currently learning **Natural Language Processing (NLP) and agentic frameworks (LangChain)**
+- 👯 I’m looking to collaborate on **open-source projects in ML, backend systems, and developer tooling**
+- 💬 Ask me about **machine learning, APIs, system design, and databases**
+- 👨‍💻 Check out my portfolio at [Portfolio](https://itshrs.dev)
+- ⚡ Fun fact: **I build software where models think, APIs scale, and systems don’t wake anyone up at 3 AM.**
 
 ---
 
@@ -34,6 +36,7 @@ I'm a passionate **Software Developer** specializing in building exceptional dig
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
@@ -73,12 +76,12 @@ I'm a passionate **Software Developer** specializing in building exceptional dig
   </a>
 </p>
 
-<div align="center">
+<!--<div align="center">
   
   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hrishirajSarmah&theme=radical&hide_border=true)](https://git.io/streak-stats)
   
 </div>
-
+-->
 ---
 
 ## 📫 Connect with Me
@@ -96,5 +99,7 @@ I'm a passionate **Software Developer** specializing in building exceptional dig
 <div align="center">
   
   ![Profile Views](https://komarev.com/ghpvc/?username=hrishirajSarmah&color=blueviolet&style=for-the-badge)
+
+  ✨ *Avid procrastinator, but always open for engineering impactful solutions together (along with coffee☕️, only if you're buying!)*
   
 </div>
