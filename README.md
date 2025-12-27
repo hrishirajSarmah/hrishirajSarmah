@@ -73,7 +73,7 @@ I'm a passionate **Software Developer** specializing in building exceptional dig
 
 <div align="center">
   
-  [![Your Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hrishirajSarmahE&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  [![Your Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hrishirajSarmah&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
   
 </div>
 
