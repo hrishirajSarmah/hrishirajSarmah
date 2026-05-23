@@ -8,18 +8,17 @@
 
 ## 👨🏻‍💻 About Me
 
-I’m a **Software Developer** focused on **Machine Learning, Backend Systems, and DevOps**, with a strong interest in building and studying ML-driven systems at scale. My work sits at the intersection of model development, system design, and deployment. I've been highly invested in learning microservices and distributed systems, and am working to integrate it into my web applications.
+I’m a **Software Developer** focused on **Machine Learning, Agentic AI, and Backend Systems,** with a strong interest in building and studying ML-driven systems at scale. My work sits at the intersection of model development, system design, and deployment. I've been highly invested in learning microservices and distributed systems, and am working to integrate it into my web applications.
 
 I've built and worked on multiple reliable and intelligent ML models, and even pushed them to production. Apart from that, I like to experiment with various Language Models on the market and test them against each other.
 
 Currently I'm working on building reliable backend systems and automating user workflows, while also contributing to fun open source projects.
 
-- 🔭 I’m currently working on **Transformers, Vision–Language Models (VLMs), and Spring Boot–based services**
-- 🌱 I’m currently learning **Natural Language Processing (NLP) and agentic frameworks (LangChain)**
-- 👯 I’m looking to collaborate on **open-source projects in ML, backend systems, and developer tooling**
+- 🔭 Working on **ML microservices, Spring Boot, and Databases**
+- 🌱 Learning **VLM, Transformers and agentic frameworks (LangChain)**
+- 👯 Looking to collaborate on **open-source projects in Backend and AI projects**
 - 💬 Ask me about **machine learning, APIs, system design, and databases**
 - 👨‍💻 Check out my portfolio at [Portfolio](https://itshrs.dev)
-- ⚡ Fun fact: **I build software where models think, APIs scale, and systems don’t wake anyone up at 3 AM.**
 
 ---
 
