@@ -1,0 +1,199 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="55%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#7ee787"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#30363d"/>
+      <stop offset="80%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7ee787" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7ee787" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="portrait-clip">
+      <rect x="70" y="90" width="280" height="290" rx="6"/>
+    </clipPath>
+    <filter id="crt" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Window -->
+  <rect width="1200" height="400" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <path d="M0 14 Q0 0 14 0 L1186 0 Q1200 0 1200 14 L1200 40 L0 40 Z" fill="#161b22"/>
+  <line x1="0" y1="40" x2="1200" y2="40" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="20" r="6" fill="#28c840"/>
+
+  <!-- Title -->
+  <text x="600" y="25" font-size="12" fill="#7d8590" text-anchor="middle">hrishi@github — zsh — 120x28</text>
+
+  <!-- Portrait frame -->
+  <rect x="65" y="85" width="290" height="300" rx="8" fill="#0a0d12" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Portrait area with clip -->
+  <g clip-path="url(#portrait-clip)">
+    <!-- Pixelated portrait with idle bob -->
+    <g filter="url(#crt)">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; 0 -3; 0 0; 0 2; 0 0" dur="3.2s" repeatCount="indefinite"/>
+        <image
+          href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABSCAYAAAD3oJK6AAABamlDQ1BJQ0MgUHJvZmlsZQAAeJx1kL1Lw1AUxU+rUtA6iA4dHDKJQ9TSCnZxaCsURTBUBatTmn4JbXwkKVJxE1cp+B9YwVlwsIhUcHFwEEQHEd2cOim4aHjel1TaIt7H5f04nHO5XMAbUBkr9gIo6ZaRTMSktdS65HuDh55TqmayqKIsCv79u+vz0fXeT4hZTbt2ENlPXJfOLpd2ngJTf/1d1Z/Jmhr939RBjRkW4JGJlW2LCd4lHjFoKeKq4LzLx4LTLp87npVknPiWWNIKaoa4SSynO/R8B5eKZa21g9jen9VXl8Uc6lHMYRMmGIpQUYEEBeF//NOOP44tcldgUC6PAizKREkRE7LE89ChYRIycQhB6pC4c+t+D637yW1t7xWYbXDOL9raQgM4naGT1dvaeAQYGgBu6kw1VEfqofbmcsD7CTCYAobvKLNh5sIhd3t/DOh74fxjDPAdAnaV868jzu0ahZ+BK/0HFylqvLiAv9gAABIzSURBVHjaxVxJbBxFF35V3T0znrHHa+LdjuOYWICNTGIhlkNA4hC4AeKCuAQULuROxCECFEFQEAIpQSB+QuAWKT8/SCBkiVXCLEGERZCIWCGWEFYS4tixY89ML+8/hFdUV1dV95jk/1tqzdLV3dWv3vq995ohIsL/eXMcB6IoEr8ZY+I7IgJjLPZfFEXAGINSqQSXLl2KHbvaG6+XPmuhp+4c+m9wcBAcx0k8JCIK4tB3RBSERERYWVkRx6/VM/B6qV/PeJqI7pwoimB8fBz++OMPCMMwNk5+ANN3zjkAANx3331wLZ+BpYmY7SGznENcoG75fB5qtVpsDGPMKmry/zLnMMYEka/WRnNyrwY32MaZxlcqFeCcJzhEfnB17VQ9RFt/f79xIeTrrkX02P9SSdNEoygCx3GAc57gGFnMZGLLXCOfQ5vv+1pd9o+VdBaKZqGhPNY0nib/xhtvxKyRTJQoisQn6RnOOUxM3AT/+c+/4fDhwzHulMdci83Nosx0FsakVGURIBFSz5f1BSIC51wQKgxDKJfLiXEAAB0dHTA3NwdfffUVHDhwIL7SkriqOlCdK3FwrVaDXC5nnCsirl3E0uTadFxWyPJxEr1yuQwXL17UcgSdK1s9x3HA8zyo1WpaN+HKuL/Pq9VqEIYhNDY2SmMZLC4uwunTp2F2dhY+/fRT+Pjjj2H+z4sAKLYQk1uIURQhIopP2qIowpmZGXzmmWfw+uuvRwBAxhhu3boV9+/fjydOnLhyhTAU4+WdxtMO0lSiKELHccQYzrm4Tq1Ww1KphACA77zzDgIAOo4jrnu1Nzh16hQ+8cQTWCjkcGJiAsfHx7GvbwCnpqZiREu7ue24bvL5fD5GACIQfaedc46cc/Q8DxERi8WiIKrjOMg5x82bN18T4iAiMiLUWsTln/hLZHFIXDjnsH79epibm0voFNmblvWizohkNel1WbG0C2a5oapT0rbBwUEIwxAQEQYGBqChoUEQR31QmQCtra2x+6i6ai2hR6onfbWpnsZZxA35fB5834cwDKG5uRmWl5fF8fb29piyJk4LwxA8zxMEbGxshEuXLl1VA5Mw89cyGtZdm/7r7u4GRIQLFy7AyspKbMz8/Lx4mFwuFxNN1deyuRRrkQh5UXkWast71vFpkTNjV0xrFEXQ19cnHlTWK5VKBRhj4Pu+OO/NN9+EIAgSHrXOuzbNSfXX/lGo8U+DVdvm+z7kcjmx8hR+UJy2Z88eePrppxN6hXMOLS0tcP78eSGCNu4JggBc143Nz/d9mJqago8++gh834eRkRG488474cYbb4zptWsai6U5i1EUged5sdV0HAcqlQq4riuAtM7OThgeHoZarQZzc3Pw/fffQ2dnJ/i+rwXTTGGHOp8sosnhGm626Jp0EHFHd3e3mDTpnCiKoFarwe+//w69vb0AAPDFF19AS0sLICIUCoXEPWSXIMv80sZlClavBkIXhiHs3LkTCoUCuK4LjDE4d+6c0Du33357wk+S/aXp6Wm4cOECTE5OAiKC4zjg+z6sW7dOcBGNNS2MDrZVg2WtDjp//jz89NNP8Msvv0BzczOUy2VoamqCvr4+uO6669YkUqpTlxZQhmEIhUIBgiBIYEMUVOpWP5/PQxiGEARBDHCTr086iESKiEMibdVh5KKHYYhheCX2CoKgbpc8iiJcXl5OhB6O46DruiJ0oNCCQgqKw6IowqGhIfGbjlFMJo+Vv7uui0EQiP9087p8+TLu2bMHPc/DsbExXF1dTYQ/plBFKOkPP/wQCoUCbNy4Ebq6usDzPC1cYDKVtDKyVfE8LwFZMMagublZOHekZ0hZNzQ0CPOu40RafdIzjuNAU1MTLC4uJiDbMAyFoq/X0xfz/Suy1k6onhhMJSJhPPIDqbJOi7C6uhqzPJ7nCZExYdHy/3LaiHTa1XJ+uUrZsbExeOWVV+Czzz4Dx3FgdHQUjh07Jh5samoKCoUCTExMwO7du7VKjrhB1TdywEmWaGBgIKE3fN+HgYEBLXHoXjKntLS0pDqE9Ti36kFcWFhIhTB0kAXprZMnT+LIyAjec889uG/fPqE7ZJ2h7mfOnEHOObquK6AM9X5hGGIul4vpHNJddH3P84SeamtrS9UpWfRODA9KU7y63XaMJlytVmOAmLojYgwscxwHERGr1apxQRARPc+LXefZZ58VRF/Lc6ThW6Ab+N133wlLluWCZPkI6ZN3smKcc7HqnHP89ddfY+NU4MxkSR9//PGYVZSRSRthdf8RSknH33//fRweHsbx8XE8d+7cFeTTdKHTp09rCWS7OZnbXbt24V/WMba6sqgUCoXEA6oiWSqVBKHoYWSzn8vlYoQHANy+fTvKrksURVipVND3faES6pEa0FGdfp89exaDIMiM9xKMKj+453kxGLWtrQ3b29sTRFJ3E9FUDFvlPto3bdokFm10dFToNB2BVKIQYa06iAaqCtwkxzRp+ZNWFwCwWCwKUQMArFQqQlTkc3S7ThQZYzg9PS3EWOeEqkkDRMSenp5MSpoYA7KwmvzfsWPHcMuWLeL/lpaW2MOpSpR2mjiB7pxzDIJASwwdYVQPmjGWIHChUIiJYLlcxsXFRRwcHMSRkRFkjOHs7CwCgCDA2NgYNjQ04NGjRxERsbGxEUdHR/+2YrIylMMN+n3o0CHM5XJ4yy23CH0QBAF2dnbGwgVa1d9++01kG0yiIjiOAb733ntWzlHPNRFf5mJ5t4VN1WoV+/v7sVQq4eTkJN59990xMYyiCFkURZjL5WBoaAiCIICJiQnYuHEjBEEAL774otGxIuhTdeTCMBSBoQl6ENG354JfrcWCUdXpTMu2yF405xw45yLgLRaLAuc2YUKp9ykWi5m0esx50gSOxEG7du0S4qTjnpie4CzmVKqcIzuGOs6ROZU+X375ZTHe931sb28X877pppvwyy+/TH2+2LP6vp/wC2QRU/2GYrGInHP8+uuvtZaFMYYNDQ0IAJjP541WiLzo1tbWmN4w6Rud2MlOpnoOiR19IiKOj4/jhg0b6kqEgo6CMzMzQhbHx8dFKKBap71792qzoDoO01k5+t7b2yv8GtM5JkK7rpsgMHEXLVS9nnTMD4qiCGu1GhInkXYnP0KXKpZFSnYI6dj8/LzVfKsEBAA8ePBgguNMRFaP1Wq1v/0gzvBfh95A7jqCePUQiOhB30EVp7GxMTGYTN/y8rJRTIhI8irKuioLN9C+c+dO3Ldvn9VxNDmW6kLQfMidoMWXrZquIAMRcdOmTej7fpxAx48fR9d1YycQZ6kesqpsZZ+EUL5yuazVDTaT3tzcjDt27DASxsRBAID33ntvbD5yONLV1YVRFOHWrVuxXC5bHcVKpRLTvaBG57oTs4YCRKSGhoaYhcnKATfccAMCAHqepyWsToHL+k/11OU5yVtvb28qFNLR0YFhGF7xpNvb22PaXpbTI0eOJB6Ocy5qfFTFSAGkyRrZuOLAgQOJc9MUvXysra0tcV6xWEQAiHFFGIZClegYQ7bssHfvXkREfOCBB7Rgkk2HhGEoxIhW6ueff45hPWkhg/xdvV8WhW3jMM45PvjggwgAODc399dzBVitVoU+SgPWQA1OdUGobTIrKyvClAIA+r6PuVzOGnCaOCsMw1QCpQWzKhF//PFHEadVq1WMoiBWrZZm8rlaCKkWaafVPReLRQiCQGQ1hoaGRL2grbJD95uqVtX6aVtBujo3ugZ9zs7OAmMMqtWqCGdornIZjTEBavMmSaazOGy0P/TQQ5kUs44L5NpFW3Bq4x7ZvKv6TEUQaXv++edxbGxMmPbMmLSMs2Rx2IrFYkx5pxFHB5lmJajpGup5PT09Qh+1tramwshqeMVtOXZdqa6tF+Pdd98F13UFi6dFyrpyYN05aUUQuiIEuu7CwgJwzqFYLMLq6mrimpOTk+K/mZmZpJjZOMhkck2KU04B61bThvc4joMbNmyom+t0yl5Ndbuui67rYmdnZwI1pLBCF6xbRYwAsSziRZ9EIB1OnAVKVeENW6hiWwQVknnyySeF76bDn20oqrH8hUpTTKKligBjDCqVCgAAlMvlWEWX67oJK9TS0iLSzY7jQGNjozi+bt06o5VTSwJ1ovjoo4+Kqg0AgG3btgkATxVDmoNawieAPpMPoFO0xFGq6FF29PPPP9dCD7ZQIYqiBGQ6NDSUGtakYUQ6b17192wZZNq1JXjd3d3w559/CuhSLhKgwgKCNqMoAtd1RWGlXIVq8l/kY1RMVavVhP8jV4moyl7XnGIq85O5pFAoQLVajRWEZioNtilnXUCoWxkKDMkTTgspdNxx4sSJWLrG5ibYwo80XVZvappn7ROjUha1W4dqBQEAvvnmm0QZnK5NQG0nQEQ4evSo4MChoaFMHrNOH8oVIjKwT9v09LT22XQ7AAC/6667Yhesp9hRZffBwUFtz6n6qbZeyv4IMoCFhQWtUVC7oG01kufOnYvNg0T5/vvvT5wfBAFs27YNtmzZIkr+xHURES9cuKDNktrMsy5ToYvGswasP/zwwxUj4PAYNm1CMdPyZwRzqPOlKhITmqh+57feeivcfPPNQnxkBWvrNFTHqHmyLE0vMhe9/vrr4t5yw5wpeFYLstR7rKysCHHP5XJGblY5mu4/PDysV9JUlmICpXQcRArR1ChnU9SMMSwUCiIDkRYM2zhHVdLEcblcTouZ63Pytb8aCYO/lbQsk4JyCrXVfg2d6S0Wi5niJIrVaCuVSiJOoh5Wm+6z6SO5sJTgDACAvr4+7fwTNYncBQAOjDnxfjG5ltlWv2fyOTzPg2q1qg1s1XNUr/Wxxx4T/oqcSjZhNbrjOjF+6aWXhNI9ePBgLD1uLBxXF0VbG5wSFMqs2t3djU1NTRgEgRYeSUMRGWN4/Phxcbyrq6tun8ck0mQ0KFsjJwSyFFJZYzEdByEifPvtt8JkMsZgbm4OlpaWoK2tLbEyJr9FXf35+XmBJJ49e9YIh6gvHTD5a6qYy8UNanSQVvGaePuLLQjcsWMH3HHHHQkrAwCJrj+dtZB1hyzKp06dElb08OHDsfaArC83sPW1qYRSe9Os7aW2QDUtgymHHcViUYiYXHZnCi/k72+99ZYIY9QsbVqwaivXk8Om1157zVg3ZK3uMBFIlwtTy+vUiJyShVTO8vDDD4vUylNPPYX5fB5rtVri2idPnoxVZKTpvqx5su3btxudVFMxaiZM2nRzWuXu7m48dOiQFk6QPV0dx6lFnXLFmVrdkQbSZUUYZe4m9DLziwXSsCA1B//cc88ZMwmU0bDVBOlWNIoicVx2GG3OahrCKP9+5JFHEpy/ZgLt379fsHu5XBYrWygUsLm5GR3HwQ8++EAUjctYtM2U28SGOMjU+pSloEo3jrBpx3ORuw4CgxiksmYOkouk6Cby6tNNzpw5I1ac3HldyGDiKCKIrHds1WZZCCQfUwPW4eHhRLiRVmlmbOolHFkNDjnnUCqVYGlpSYwLwzCGF5ne3KLDtwuFAqyurgJjTKCVJjRS/d82DgBEcSghlfJLCkyBrvbFAro4JgxDYwp4aWlJXJh8ItkZs1W3yvEYpYNvu+22TH6PiTgmOHf37t1aAFAG0LL0SmkLxglGTXP7dfph8+bNmTKrJKryG13qMedp+TYZaVCLq+p6+4sp8JMDR1PXoA5Il1sgbVwkY0rUoEupo6wt5zoOV4/LqR0VmUh7MRy3ue1yx7PtHWXqTV544YXUGImOtba2iomrxNFhxKbeeF3cR0Q3vRgujTgCcrUWEGWs6iD29TxPm90wZWep84dSxLp0d5pI29QA+Vjysf7+fmtrl7zzrG9NMAW16msl+vr6RLMuKUMd9+jeZGd7p6uOm3RNvwkRkV49Qfurr74qmoZtBRWMsWwvNzHhzSo2LZt/3YsFTBUYRDRKQJp0iu0NnyZTr1t0OZJPS0Cm4kGq7Jr6z6MogsuXLydSLWnvN5Q5MZfLJbgurZklSwdzqVQyGo00fcTTbsY5h+bmZu3/6sqqxPQ8D3p6erSdQfILCGhrb29PvM/Hlo/TKlXNgy8vL2cyLiYOSYUdVaV78eJFaw00Kdy3335bhA5RFGFjY2OsrZu+r1+/PqawdSU0aZkNm99ErRFq63jmWExtOtMRjTAeerC0RjfOOXZ0dGitC/VPHDlyBAFAjMvn88acej3dPwCAn3zyiThGHUoAgAMDA3W9UvC/EbbEFaMZELEAAAAASUVORK5CYII="
+          x="80" y="95" width="260" height="285"
+          image-rendering="pixelated"
+          preserveAspectRatio="xMidYMid meet"/>
+      </g>
+    </g>
+
+    <!-- Scanline sweep -->
+    <rect x="70" y="90" width="280" height="60" fill="url(#scan)" opacity="0.6">
+      <animate attributeName="y" values="90;380;90" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Horizontal CRT scanlines (static) -->
+    <g opacity="0.08" fill="#000">
+      <rect x="70" y="92" width="280" height="1"/>
+      <rect x="70" y="96" width="280" height="1"/>
+      <rect x="70" y="100" width="280" height="1"/>
+      <rect x="70" y="104" width="280" height="1"/>
+      <rect x="70" y="108" width="280" height="1"/>
+      <rect x="70" y="112" width="280" height="1"/>
+      <rect x="70" y="116" width="280" height="1"/>
+      <rect x="70" y="120" width="280" height="1"/>
+      <rect x="70" y="124" width="280" height="1"/>
+      <rect x="70" y="128" width="280" height="1"/>
+      <rect x="70" y="132" width="280" height="1"/>
+      <rect x="70" y="136" width="280" height="1"/>
+      <rect x="70" y="140" width="280" height="1"/>
+      <rect x="70" y="144" width="280" height="1"/>
+      <rect x="70" y="148" width="280" height="1"/>
+      <rect x="70" y="152" width="280" height="1"/>
+      <rect x="70" y="156" width="280" height="1"/>
+      <rect x="70" y="160" width="280" height="1"/>
+      <rect x="70" y="164" width="280" height="1"/>
+      <rect x="70" y="168" width="280" height="1"/>
+      <rect x="70" y="172" width="280" height="1"/>
+      <rect x="70" y="176" width="280" height="1"/>
+      <rect x="70" y="180" width="280" height="1"/>
+      <rect x="70" y="184" width="280" height="1"/>
+      <rect x="70" y="188" width="280" height="1"/>
+      <rect x="70" y="192" width="280" height="1"/>
+      <rect x="70" y="196" width="280" height="1"/>
+      <rect x="70" y="200" width="280" height="1"/>
+      <rect x="70" y="204" width="280" height="1"/>
+      <rect x="70" y="208" width="280" height="1"/>
+      <rect x="70" y="212" width="280" height="1"/>
+      <rect x="70" y="216" width="280" height="1"/>
+      <rect x="70" y="220" width="280" height="1"/>
+      <rect x="70" y="224" width="280" height="1"/>
+      <rect x="70" y="228" width="280" height="1"/>
+      <rect x="70" y="232" width="280" height="1"/>
+      <rect x="70" y="236" width="280" height="1"/>
+      <rect x="70" y="240" width="280" height="1"/>
+      <rect x="70" y="244" width="280" height="1"/>
+      <rect x="70" y="248" width="280" height="1"/>
+      <rect x="70" y="252" width="280" height="1"/>
+      <rect x="70" y="256" width="280" height="1"/>
+      <rect x="70" y="260" width="280" height="1"/>
+      <rect x="70" y="264" width="280" height="1"/>
+      <rect x="70" y="268" width="280" height="1"/>
+      <rect x="70" y="272" width="280" height="1"/>
+      <rect x="70" y="276" width="280" height="1"/>
+      <rect x="70" y="280" width="280" height="1"/>
+      <rect x="70" y="284" width="280" height="1"/>
+      <rect x="70" y="288" width="280" height="1"/>
+      <rect x="70" y="292" width="280" height="1"/>
+      <rect x="70" y="296" width="280" height="1"/>
+      <rect x="70" y="300" width="280" height="1"/>
+      <rect x="70" y="304" width="280" height="1"/>
+      <rect x="70" y="308" width="280" height="1"/>
+      <rect x="70" y="312" width="280" height="1"/>
+      <rect x="70" y="316" width="280" height="1"/>
+      <rect x="70" y="320" width="280" height="1"/>
+      <rect x="70" y="324" width="280" height="1"/>
+      <rect x="70" y="328" width="280" height="1"/>
+      <rect x="70" y="332" width="280" height="1"/>
+      <rect x="70" y="336" width="280" height="1"/>
+      <rect x="70" y="340" width="280" height="1"/>
+      <rect x="70" y="344" width="280" height="1"/>
+      <rect x="70" y="348" width="280" height="1"/>
+      <rect x="70" y="352" width="280" height="1"/>
+      <rect x="70" y="356" width="280" height="1"/>
+      <rect x="70" y="360" width="280" height="1"/>
+      <rect x="70" y="364" width="280" height="1"/>
+      <rect x="70" y="368" width="280" height="1"/>
+      <rect x="70" y="372" width="280" height="1"/>
+      <rect x="70" y="376" width="280" height="1"/>
+    </g>
+  </g>
+
+  <!-- Live indicator dot -->
+  <g transform="translate(340, 105)">
+    <circle r="4" fill="#7ee787">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="12" y="4" font-size="10" fill="#7d8590" font-weight="600">LIVE</text>
+  </g>
+
+  <!-- Right side: neofetch content -->
+  <g transform="translate(420, 110)">
+    <!-- Name header -->
+    <text y="0" font-size="34" font-weight="800" fill="url(#accent)" letter-spacing="-0.5">Hrishiraj Sarmah</text>
+    <text y="26" font-size="13" fill="#7d8590" font-weight="500">Software Engineer · Machine Learning · Backend Systems</text>
+    <line x1="0" y1="46" x2="700" y2="46" stroke="url(#rule)" stroke-width="1"/>
+
+    <!-- Neofetch key-value rows -->
+    <g font-size="14">
+      <text y="78" fill="#a371f7" font-weight="600">Building</text>
+      <text y="78" x="130" fill="#c9d1d9">proximity-broadcast social apps · mesh-networked Android tools</text>
+
+      <text y="106" fill="#a371f7" font-weight="600">Exploring</text>
+      <text y="106" x="130" fill="#c9d1d9">transformers · VLMs · agent orchestration · distributed systems</text>
+
+      <text y="134" fill="#a371f7" font-weight="600">Stack</text>
+      <text y="134" x="130" fill="#c9d1d9">Python · FastAPI · PyTorch · Next.js · Postgres · Docker</text>
+
+      <text y="162" fill="#a371f7" font-weight="600">Location</text>
+      <text y="162" x="130" fill="#c9d1d9">Jaipur, India</text>
+
+      <text y="190" fill="#a371f7" font-weight="600">Portfolio</text>
+      <text y="190" x="130" fill="#58a6ff">itshrs.dev</text>
+    </g>
+
+    <!-- Palette dots -->
+    <g transform="translate(0, 218)">
+      <circle cx="6" cy="6" r="6" fill="#ff7b72"/>
+      <circle cx="26" cy="6" r="6" fill="#f2cc60"/>
+      <circle cx="46" cy="6" r="6" fill="#7ee787"/>
+      <circle cx="66" cy="6" r="6" fill="#58a6ff"/>
+      <circle cx="86" cy="6" r="6" fill="#a371f7"/>
+      <circle cx="106" cy="6" r="6" fill="#d2a8ff"/>
+    </g>
+
+    <!-- Prompt -->
+    <g transform="translate(0, 258)">
+      <text font-size="14" fill="#7ee787" font-weight="700">➜</text>
+      <text x="20" font-size="14" fill="#58a6ff" font-weight="700">~</text>
+      <text x="36" font-size="14" fill="#c9d1d9">git commit -m "shipping"</text>
+      <rect x="260" y="-13" width="9" height="17" fill="#c9d1d9">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
